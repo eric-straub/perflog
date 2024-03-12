@@ -1,3 +1,9 @@
+# perflog 0.1
+# Eric Straub
+# 3/12/24
+
+# if you want to change the period between logs just edit the sleep length on line 40
+
 import psutil
 import time
 from datetime import datetime
@@ -31,7 +37,7 @@ def log_system_performance():
             print(log_message)
             
             # Wait for a minute
-            time.sleep(1)
+            time.sleep(60)
 
 if __name__ == "__main__":
     log_system_performance()
