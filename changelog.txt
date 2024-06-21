@@ -1,0 +1,7 @@
+--- Perflog GUI v0.3 ---
+
+- Added options menu
+- Added ability to specify log file name/path
+- Separated the worker thread into its own module
+- Created a separate class for the main window
+- Encapsulated initialization and setup code into methods'
